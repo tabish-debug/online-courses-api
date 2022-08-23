@@ -1,8 +1,10 @@
-# Online Courses Api
+# `Online Courses Api`
 
 Api's flow
 
-Course ---- hasmany -----> Lessons ---- hasmany -----> Chapters ---- hasmany -----> Pages
+Course ---- hasmany -----> Lessons \
+Lessons ---- hasmany -----> Chapters \
+Chapters ----  hasmany  -----> Pages \
 Pages which have components
 
 Components are like HTML elements which can be
