@@ -1,9 +1,31 @@
-# online-courses-api
+# Online Courses Api
 
-### create .evn file
-#### add PORT and DB
-#### PORT=any and DB=mongodb-url
+Api's flow
 
-### run command <sub> npm i </sub> for install all packages
-### run command <sub> npm run start </sub> for start server
+Course ---- hasmany -----> Lessons ---- hasmany -----> Chapters ---- hasmany -----> Pages
+Pages which have components
 
+Components are like HTML elements which can be
+* Photo
+* Video
+* Paragraph
+* Text Input(Form Elements)
+
+Using Tech Stacks
+* Node.js
+* Express.js 
+* MongoDB
+
+### `.env file`
+
+PORT=port
+DB=mongodbUrl
+
+### `running commands`
+
+```
+npm i --save
+npm start
+```
+
+you can easily test api's on postman or anyother tool ...
